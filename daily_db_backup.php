@@ -1,13 +1,13 @@
 <?php
 
 $host = 'localhost';
-$hostname = 'sms.dats';
+$hostname = 'dats';
 $username = 'dbbackup';
 $password = '';
 
 date_default_timezone_set('Asia/Colombo');
 $day = date("dMY");
-$folder = '/home/bkup/';
+$folder = '/home/bkup';
 $tempfolder = "$folder/$day";
 
 $databasesToSkip = array("sys", "information_schema", "performance_schema");
